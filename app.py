@@ -72,7 +72,7 @@ def complete():
     """Survey complete. Show completion page."""
     return render_template("thank_you.html")
 
-# to check for responses aree in session storage
+# to check for responses in session storage
 @app.route("/view-session")
 def view_session():
     """View session data in the browser."""
