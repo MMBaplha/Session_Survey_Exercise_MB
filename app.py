@@ -5,7 +5,7 @@ from surveys import satisfaction_survey as survey
 app = Flask(__name__)
 
 app.debug = True
-app.config['SECRET_KEY'] = 'supersecretkey'
+app.config['SECRET_KEY'] = 'secretkey'
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False  
 
 toolbar = DebugToolbarExtension(app)
